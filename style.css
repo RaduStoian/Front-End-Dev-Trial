@@ -1,0 +1,200 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    font: 15px 'Roboto', sans-serif;
+}
+
+/* ===================== Contact Section =============================*/
+
+#contactSection {
+    background-color:#1B325F;
+    display:grid;
+    grid-template-columns: 58% 220px 1fr;
+    grid-gap:10px;
+}
+
+#contactSection p {
+    color:white;
+    line-height: 20px;
+    font-weight:100;
+    margin:15px 0px 15px 0px;
+}
+
+#contactSection p img {
+   margin-right: 10px;
+}
+
+#emailIcon {
+    position:relative;
+    top:1px;
+}
+
+#phoneIcon {
+    position:relative;
+    top:4px;
+}
+
+#contactSection #contactFirstP {
+    margin:15px 0px 15px 245px;
+
+}
+
+/* ===================== Navigation =============================*/
+
+#mainNavigation {
+display:grid;
+grid-template-columns: 35% 1fr;
+}
+
+#logoImage {
+    margin:12px 0px 19px 58%;
+   
+   
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-right:0px;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding:50px 16px 46px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:15px; 
+    font-weight:500;
+    letter-spacing: 0.09px;
+  }
+
+
+
+  /* ===================== Main Showcase =============================*/
+
+  #mainShowcase {
+      height:931.5px;
+      background-image:url('assets/Home-img.jpg');
+      background-repeat: no-repeat;
+
+  }
+
+  #mainShowcase h1 {
+      font-size: 65px;
+      letter-spacing: 2px;
+      line-height: 60px;
+      text-align: right;
+      color:white;
+      font-weight: 500;
+      padding:121px 19% 30px 0px;
+  }
+
+  #mainShowcase h3 {
+    font-size: 24px;
+    font-weight:100;
+    letter-spacing: 0px;
+    line-height: 34px;
+    text-align: right;
+    color:white;
+    padding:0px 19% 30px 0px;
+    
+}
+
+#showcaseButtonContainer {
+    text-align: right;
+}
+#showcaseButton {
+    margin:0px 19% 512.5px 0px;
+    text-align: right;
+ 
+}
+
+.button {
+    font-size:18px;
+    letter-spacing: -0.03px;
+    font-weight:500;
+    color:white;
+    text-decoration: none;
+    background-color:#1B325F; 
+    border-radius: 2px;
+    padding:13px 29px;
+    text-transform: uppercase;
+}
+
+
+/* ===================== Form =============================*/
+
+form {
+    text-align: center;
+    background-color:white;
+    position:absolute;
+    top:630px;
+    left:60vw;
+   
+    margin-bottom:70px;
+    box-shadow: 14px 30px 0px 0px #F26C4F;
+    -moz-box-shadow: 14px 30px 0px #F26C4F;
+}
+
+form h4 {
+    font-size:20px;
+    letter-spacing: -0.03px;
+    color:#1B325F;
+    text-transform: uppercase;
+    margin:41px 0px 36px 0px;
+}
+
+form input {
+    width:311px;
+    height:20px;
+    background-color:#E9F2F9;
+    border:none;
+    margin:10px 22px 10px 20px;
+    padding:8px 9px 12px 9px;
+    font-size:15px;
+    letter-spacing: -0.02px;
+    color:#666666;
+}
+
+form select {
+    width:329px;
+    height:40px;
+    background-color:#E9F2F9;
+    border:none;
+    margin:10px 20px;
+    padding:8px 9px 12px 4px;
+    font-size:15px;
+    letter-spacing: -0.02px;
+    color:#666666;
+}
+
+
+form textarea {
+    width:311px;
+    height:120px;
+    background-color:#E9F2F9;
+    border:none;
+    margin:10px 20px;
+    padding:8px 9px 12px 9px;
+    font-size:15px;
+    letter-spacing: -0.02px;
+    color:#666666;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#submitButton {
+    color:white;
+    font-size:18px;
+    margin:20px 22px 46px 199px;
+    width:150px;
+    height:50px;
+}
