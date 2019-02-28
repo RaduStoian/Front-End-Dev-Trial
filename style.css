@@ -7,6 +7,10 @@
     padding:0px;
 }
 
+.total-width{
+    width:1900px;
+}
+
 .font-family
 {
     font-family: 'Roboto', sans-serif;
@@ -33,6 +37,8 @@
 .header-second-img-style {
     margin-left:91px;
     margin-right:10px;
+    position: relative;
+    top:2px;
 }
 
 /*Navigation*/
@@ -68,7 +74,7 @@
 }
 
 .showcase-style{
-    background-image: url("/Front-End-Dev-Trial/assets/Home-img.jpg");
+    background-image: url("/assets/Home-img.jpg");
     height:875px;
     background-repeat: no-repeat;
     background-position:-0px -65px; 
