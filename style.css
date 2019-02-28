@@ -1,5 +1,17 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/* This is a fixed Layout (1920x1080) - 20 px for scrollbar width
+
+    Zoom out on smaller devices
+
+    Compare Browser Version with the "Desired Result.png"
+*/
+
+
+/* Differences still present
+    - font is slightly different
+    - select tag arrow is different
+*/
 
 
 * {
@@ -38,7 +50,7 @@
     margin-left:91px;
     margin-right:10px;
     position: relative;
-    top:2px;
+    top:3px;
 }
 
 /*Navigation*/
@@ -74,7 +86,7 @@
 }
 
 .showcase-style{
-    background-image: url("/assets/Home-img.jpg");
+    background-image: url("./assets/Home-img.jpg");
     height:875px;
     background-repeat: no-repeat;
     background-position:-0px -65px; 
@@ -151,6 +163,7 @@
     letter-spacing: -0.02px;
     width:calc(100% - 20px);
     font-family:inherit;
+    resize: none;
 }
 
 .form-select-style {
