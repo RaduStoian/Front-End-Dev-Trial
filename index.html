@@ -11,80 +11,88 @@
         <meta name="description" content="Web Developer Front End Trial Result">
         <meta name="author" content="Radu Mike Stoian">
 
-        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+         <link rel="stylesheet" href="style.css">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         
+
 </head>
 
 
 
-<body>
+<body class="font-family">
 
-    <!----------------Working Hours and Contact Section--------------------->
 
-    <header id="contactSection">
+<!--Header-->
 
-        <p id="contactFirstP">Working hours: Mon-Fri (8.30 - 18.00) - Sat (9.00 - 13.00) - Sun &amp; Bank Holidays (Closed) </p>
+    <header class="header-style ">
 
-        <p id="contactSecondP"><img src="assets/Email-icon@1x.png" alt="Logo" id="emailIcon">workshop@email.com</p>
+        <span class="header-text-style">Working hours: Mon-Fri (8.30 - 18.00) - Sat (9.00 - 13.00) - Sun & Bank Holidays (Closed) </span>
 
-        <p id="contactThirdP"><img src="assets/phone-icon@1x.png" alt="Logo" id="phoneIcon">0208 544 2734</p>
+        <img class="header-first-img-style" src="/Front-End-Dev-Trial/assets/Email-icon@1x.png">
+        <span class=" header-text-style">workshop@email.com</span>
 
-    </header>
+        <img class="header-second-img-style"src="/Front-End-Dev-Trial/assets/phone-icon@1x.png">
+        <span class=" header-text-style">0208 544 2734</span>
+   
 
-    <!----------------Main Navigation Bar--------------------->
-    <section id="mainNavigation">
-        <img src="assets/logo.png" alt="Logo" id="logoImage">
-       
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Promotions</a></li>
-                <li><a href="#">Social</a></li>
-                <li><a href="#">Cars for Sale</a></li>
-                <li><a href="#">Faqs</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-    </section>
+</header>
 
-    <!----------------Showcase--------------------->
-    <section id="mainShowcase">
 
-        <h1>Free Pick-Up<br>and Delivery</h1>
 
-        <h3>We offer a free pick up and delivery service <br>to your home or place of work.</h3>
+<!--Navigation-->
 
-        <div id="showcaseButtonContainer">
-            
-            <a href="#" id="showcaseButton" class="button">Learn More</a>
+    <nav class="nav-style">
 
+        <img src="assets/logo.png" class="logo-style">
+
+        <ul class="ul-style ">
+            <li class="li-style"><a href="#" class ="navigation-text-style ">HOME</a></li>
+            <li class="li-style"><a href="#" class ="navigation-text-style ">SERVICES</a></li>
+            <li class="li-style"><a href="#" class ="navigation-text-style ">PROMOTIONS</a></li>
+            <li class="li-style"><a href="#" class ="navigation-text-style ">SOCIAL</a></li>
+            <li class="li-style"><a href="#" class ="navigation-text-style ">CARS FOR SALE</a></li>
+            <li class="li-style"><a href="#" class ="navigation-text-style ">FAQS</a></li>
+            <li class="li-style"><a href="#" class ="navigation-text-style ">ABOUT US</a></li>
+            <li class="li-style"><a href="#" class ="navigation-text-style ">CONTACT US</a></li>
+        </ul>
+
+    </nav>
+
+
+<!--Showcase-->
+
+    <main class="showcase-style">
+
+        <div class="showcase-content-container">
+            <h1 class="main-title-style">Free Pick-Up and Delivery</h1>
+            <h3 class="secondary-title-style"> We offer a free pick up and delivery service to your home or place of work.</h3>
+            <button class="btn-style">LEARN MORE</button>
         </div>
+    </main>
 
-    </section>
 
-    <!----------------Book Appointment Form--------------------->
+<!--Form-->
 
-    <form action="action.php" method ="post" target="_blank">
-        <h4>Book an appointment</h4>
+    <form class="form-style">
 
-        <input type="text" name="name" placeholder="Name"> <br>
+        <h4 class="form-title-style">BOOK AN APPOINTMENT</h4>
+
+        <input type="text" placeholder="Name" class="form-input-style">
+
+        <input type="email"placeholder="Email" class="form-input-style">
         
-        <input type="email" name="email" placeholder="Email"> <br>
+            <select class="form-input-style form-select-style">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="audi">Audi</option>
+            </select>
+        
+        <textarea rows="6" placeholder="Case Description" class="form-input-style"></textarea>
 
-        <select name="car" >
-
-            <option value="Mercedes">Mercedes</option>
-            <option value="Mercedes">Audi</option>
-            <option value="Mercedes">BMW</option>
-
-        </select><br>
-
-        <textarea placeholder="Case Description"></textarea><br>
-
-        <input type="submit" id="submitButton" class="button" value="Send">
+        <button type="submit" class="btn-style form-btn-style">SEND</button>
 
     </form>
 
