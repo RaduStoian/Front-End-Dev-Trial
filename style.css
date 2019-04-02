@@ -18,9 +18,17 @@
     margin:0px;
     padding:0px;
 }
-
+.compare-text{
+    display:block;
+    text-align:center;
+    margin:200px 0 100px 0;
+}
 .total-width{
-    width:1900px;
+    width:1920px;
+}
+
+.no-overflow{
+    overflow: hidden;
 }
 
 .font-family
